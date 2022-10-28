@@ -1,0 +1,38 @@
+
+
+.email-me{
+    width:500px; 
+    
+    background-color: rgba(0, 0, 0, 0.288); 
+    margin: 10px auto; 
+    padding:50px; 
+    box-sizing: border-box; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+#userMessage{
+    width: 300px; 
+    height: 300px;
+}
+
+
+.box-input input{width: 300px; height: 30px; margin: 10px;}
+
+.btn-send{
+    background-color:#9f7f5e; 
+    color: #fff; 
+    border: none; 
+    padding:10px 15px;
+    width: 304px;
+    cursor: pointer;
+}
+
+
+input, textarea {border:none;}
+
+input:focus, textarea:focus{outline: none !important;}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="Onlynumstyle.css">
+</head>
+
+
+
+<body>
+
+  
+
+    <section class="email-me">
+        <h2 class="title-section">분당추모공원 휴 상담신청</h2>
+        <form class="gform" action="https://script.google.com/macros/s/AKfycbzTWjtAYxryd_WzYgl_G8Gm2iwtEufeQkSQOHlsRHzenXD67_jneHHvE_9m59cTfbRC/exec" method="POST" data-email="wowdodu123@gmail.com">
+          <div class="csinput">
+            <div class="box-input">
+              <label for="userName"></label>
+              <input type="text" id="userName" name="name" placeholder="성함" required>
+            </div>
+            <div class="box-input">
+              <label for="userPhone"></label>
+              <input type="text" id="userPhone" name="tel" placeholder="-없이 번호만 입력" required onkeypress='return checkNumber(event)'>
+            </div>
+            <div class="box-input">
+              <label for="userMessage"></label>
+              <textarea name="message" id="userMessage" required></textarea>
+            </div>
+            <div class="box-input">
+              <button type="submit" class="btn-send">상담신청</button>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div style="display:none" class="thankyou_message">
+          <!-- You can customize the thankyou message by editing the code below -->
+          <p>연락주셔서 감사합니다. 빠른 시일 내에 답변 드리겠습니다🚀</p>
+          </h2>
+         </div>
+      </section>
+
+      
+
+      <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+      <script src="OnlyNum.js"></script>
+</body>
+</html>
